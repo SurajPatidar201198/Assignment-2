@@ -29,5 +29,5 @@ def product_form(request,id=0):
         list1[:]=get_all_columns(str(link))
         linklist.append(link)
         # print(list1)
-        return  redirect('/product/columns')
+        return  redirect('/columns')
         
