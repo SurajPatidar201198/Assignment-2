@@ -1,0 +1,56 @@
+{% extends "shet/base.html" %}
+{% load crispy_forms_tags %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello Suraj</h2> -->
+    {% block content %}
+    <form action="" method="post" autocomplete="off" style="margin: 0% 15% 0% 15%;">
+        {% csrf_token %}
+        <!-- {{form.link}} -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">X-Axis</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01" name="col1">
+              {% for entry in list1  %}
+              <option value="{{forloop.counter}}" class="form-control input-lg">{{entry}}</option>
+            {% endfor %}
+            </select>
+          </div>
+        <!-- <select name="col1">
+            {% for entry in list1  %}
+              <option value="{{forloop.counter}}" class="form-control input-lg">{{entry}}</option>
+            {% endfor %}
+        </select> -->
+        
+        <!-- <select name="col2">
+            {% for entry in list1  %}
+              <option value="{{forloop.counter}}">{{entry}}</option>
+            {% endfor %}
+        </select> -->
+        <br>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Y-Axis</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01" name="col2">
+                {% for entry in list1  %}
+                <option value="{{forloop.counter}}">{{entry}}</option>
+            {% endfor %}
+            </select>
+          </div>
+    <div>
+        <br>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+    </form>
+    {% endblock content %}
+
+<!-- </body>
+</html> -->
