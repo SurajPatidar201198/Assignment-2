@@ -62,7 +62,7 @@ After successfully pasting the url click on the next button and then you are pre
 
 ![Screenshot (1555)](https://user-images.githubusercontent.com/42700950/95660151-8bbbff00-0b43-11eb-9ba3-f572169d27ac.png)
 
-Select appropirate column and then click on the submit button and wait for few seconds and you are presented with the graph something like this.
+Select appropriate column and then click on the submit button and wait for few seconds and you are presented with the graph something like this.
 
 ![Screenshot (1556)](https://user-images.githubusercontent.com/42700950/95660153-8c549580-0b43-11eb-8c92-93a384cb757c.png)
 
