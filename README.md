@@ -48,6 +48,25 @@ I have used django to make it use case:
 
 In my apps views.py I have import plotmysheet library and used both of the above methods.
 
+To run django application firstly clone this repository and then move to file where manage.py file is present.
+After then through command line run the following command:
+#### python manage.py runserver
 
+This will give you the following page where you have to insert the link of your google sheet. 
+#### Make sure that file sharing option is checked and editor visiblity is also selected.
+
+![Screenshot (1554)](https://user-images.githubusercontent.com/42700950/95660150-89f23b80-0b43-11eb-9e13-a358ae8125b0.png)
+
+
+After successfully pasting the url click on the next button and then you are presented with the following options to select column for X-axis and Y-axis.
+
+![Screenshot (1555)](https://user-images.githubusercontent.com/42700950/95660151-8bbbff00-0b43-11eb-9ba3-f572169d27ac.png)
+
+Select appropirate column and then click on the submit button and wait for few seconds and you are presented with the graph something like this.
+
+![Screenshot (1556)](https://user-images.githubusercontent.com/42700950/95660153-8c549580-0b43-11eb-8c92-93a384cb757c.png)
+
+
+This will save the plot plot in the "assets" folder with the name my_plot.png.
 
 
