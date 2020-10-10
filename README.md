@@ -2,7 +2,7 @@
 #### In this project I have made an python library and published it on pypi.
 #### This library gives you the the functionality to plot the graph between any two numeric value columns of your google sheet.
 
-### How to pubish library on pypi:
+### How to publish library on pypi:
 
 1) Firstly create a directory and make a __init__.py file inside it and define the methods you want in your library through this you can directly access this 
 method wherever you import.
