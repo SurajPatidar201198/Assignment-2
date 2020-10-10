@@ -44,8 +44,7 @@ this will return the list of all the columns name form your google sheet.
 #### plot_graph(url,column1,column2,path=”assets”) : 
 this method will plot the graph and save in "assets" directory make sure you have "assests" directory already present.
 
-I have used django to make it use case: 
-
+### Use Case
 In my apps views.py I have import plotmysheet library and used both of the above methods.
 
 To run django application firstly clone this repository and then move to file where manage.py file is present.
