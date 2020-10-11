@@ -68,4 +68,7 @@ Select appropriate column and then click on the submit button and wait for few s
 
 This will save the plot plot in the "assets" folder with the name my_plot.png.
 
+### Note 
+***There are sharing limits while using google api so if you got any kind of api error please let me know I will update my credentials.***
+
 
