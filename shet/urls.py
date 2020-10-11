@@ -3,8 +3,8 @@ from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
 
-    path('',views.product_form,name="product_insert"), #get and post request for insert operation
-    path('columns/',views.columns)
+    path('',views.get_sheet_link,), #get and post request for link
+    path('columns/',views.columns)  #get and post request for columns selection
     
     
 ]
