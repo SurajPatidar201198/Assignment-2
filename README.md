@@ -1,4 +1,4 @@
-# Assignment-2
+# Python Library Project
 #### In this project I have made an python library and published it on pypi.
 #### This library gives you the the functionality to plot the graph between any two numeric value columns of your google sheet.
 
